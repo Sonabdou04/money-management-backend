@@ -36,9 +36,15 @@ class AuthController extends Controller
             return response()->json(['message' => 'Invalid credentials'], 401);
         }
 
-        
         $token = $user->createToken('money-management-react')->plainTextToken;
 
         return response()->json(['message' => 'Login successful!', 'user' => $user, 'token' => $token]);
+    }
+
+    public function logout(Request $request)
+    {
+        $request->user()->currentAccessToken()->delete();
+
+        return response()->json(['message' => 'Logged out successfully!']);
     }
 }
