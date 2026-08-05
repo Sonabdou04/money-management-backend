@@ -2,9 +2,9 @@
 
 Eine moderne Webanwendung zur Verwaltung persönlicher Finanzen, Budgetierung und Erreichung finanzieller Ziele.
 
-![React](https://img.shields.io/badge/Frontend-React%20%2F%20Next.js-61DAFB?logo=react&logoColor=black)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
-![Laravel](https://img.shields.io/badge/Backend-Laravel%20%2F%20Node.js-FF2D20?logo=laravel&logoColor=white)
+![Laravel](https://img.shields.io/badge/Backend-Laravel-FF2D20?logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white)
 
 ---
